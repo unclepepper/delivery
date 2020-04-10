@@ -93,11 +93,13 @@ body {
     line-height: 42px;
     color: #000000;
     margin: 0;
+    margin-right: 30px;
 }
 
 .input-search {
     background-image: url(../img/search.svg);
     width: 300px;
+    margin-left: auto;
 }
 
 .main {
@@ -107,7 +109,6 @@ body {
 .section-heading {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 44px;
 }
 
@@ -132,6 +133,8 @@ body {
     overflow: hidden;
     margin-bottom: 30px;
     flex-basis: 31%;
+    text-decoration: none;
+    color: #000000;
 }
 
 .card-text {
@@ -163,10 +166,34 @@ body {
     line-height: 32px;
 }
 
+.card-title-reg {
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
 .card-info {
     display: flex;
     align-items: center;
     flex: wrap;
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+}
+
+.cartd-price-bold {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    margin-left: 32px;
 }
 
 .rating {
@@ -192,6 +219,24 @@ body {
     overflow: hidden;
     white-space: nowrap;
     max-width: 160px;
+}
+
+.button-card-text {
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.card-button-image {
+    line-height: 21px;
+}
+
+.ingrediens {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #8C8C8C;
+    margin-bottom: 24px;
 }
 
 .price {
